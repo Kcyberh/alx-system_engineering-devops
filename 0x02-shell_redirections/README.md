@@ -63,4 +63,7 @@ tr -d "cC"
  a script that removes all letters c and C from input.
 21-reverse
 rev
- a script that reverse its input.
+ a script that reverse its input
+22-users_and_homes
+cut -d ':' -f 1,6 /etc/passwd | sort
+script that displays all users and their home directories, sorted by users.
