@@ -5,4 +5,8 @@ Prints followed by a new line to the standard output
 echo '"(Ôo)'\'
 Displays a confused smiley
 2-hellofile
+cat /etc/passwd
 Display content of /etc/passwd
+3-twofiles
+cat /etc/passwd /etc/hosts
+Display the content of /etc/passwd and /etc/hosts
