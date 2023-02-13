@@ -55,3 +55,6 @@ Display all the lines in the file /etc/passwd that do not contain the pattern â€
 18-lettersonly
 grep -i '^[a-z]' /etc/ssh/sshd_config
 Display all lines of the file /etc/ssh/sshd_config starting with a letter.
+19-AZ
+tr "A" "Z" | tr "c" "e"
+Replace all characters A and c from input to Z and e respectively.
