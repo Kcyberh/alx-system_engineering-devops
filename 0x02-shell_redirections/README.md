@@ -76,4 +76,6 @@ find -type f -name "*.gif" | rev | cut -d "/" -f 1 |cut -d '.' -f 2- | rev | LC_
 102-acrostic
 cut -c 1 | paste -s -d ''
  script that decodes acrostics that use the first letter of each line.
-
+103-the_biggest_fan
+tail -n +2 | cut -f -1 | sort -k 1 | uniq -c | sort -rnk 1 | head -n 11 | rev | cut -d ' ' -f -1 | rev
+ a script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
