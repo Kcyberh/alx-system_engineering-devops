@@ -34,3 +34,6 @@ find . -type f -name "*.js" -delete
 11-directories
 find . -type d -not -name '.' | wc -l
  a script that counts the number of directories and sub-directories in the current directory.
+12-newest_files
+ls -t1 | head
+ a script that displays the 10 newest files in the current directory.
