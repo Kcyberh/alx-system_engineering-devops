@@ -37,3 +37,6 @@ find . -type d -not -name '.' | wc -l
 12-newest_files
 ls -t1 | head
  a script that displays the 10 newest files in the current directory.
+13-unique
+sort | uniq -u
+ script that takes a list of words as input and prints only words that appear exactly once.
