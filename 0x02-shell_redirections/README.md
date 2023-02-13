@@ -40,3 +40,6 @@ ls -t1 | head
 13-unique
 sort | uniq -u
  script that takes a list of words as input and prints only words that appear exactly once.
+14-findthatword
+grep -i "root" /etc/passwrd
+Display lines containing the pattern “root” from the file /etc/passwd
