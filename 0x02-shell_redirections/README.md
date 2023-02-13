@@ -13,3 +13,6 @@ Display the content of /etc/passwd and /etc/hosts
 4-lastlines
 tail /etc/passwd
 Display the last 10 lines of /etc/passwd
+5-firstlines
+head /etc/passwd
+Display the first 10 lines of /etc/passwd
